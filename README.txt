@@ -1,19 +1,22 @@
-BraTee iTende Studio V2 — recovered import package
+ToneMaster by MG:SOUNDS
 
-This package contains the V2 application source and the complete audio files recoverable from the supplied beat-pack upload.
+Vercel static PWA + serverless API. Uses Supabase Auth, Postgres licences and private Storage.
 
-RECOVERED AUDIO
-- 258 complete MP3 loops recovered from the uploaded archive.
-- 37 beat sets have at least one recovered loop.
-- The original index listed 333 loops; 75 loops were not present in the uploaded archive.
-- The final MP3 entry in the upload was truncated and was not included.
-- The app index has been filtered to match the 258 recovered loops, so the download count matches the available files.
+Required Vercel environment variables (Production + Preview as needed):
+SUPABASE_URL=https://<project-ref>.supabase.co
+SUPABASE_ANON_KEY=<publishable-or-anon-key>
+SUPABASE_SERVICE_ROLE_KEY=<server-side-only-secret>
+MG_SOUNDS_ADMIN_SECRET=<long-random-admin-secret>
+SUPABASE_AUDIO_BUCKET=tonemaster-audio
+SUPABASE_BEAT_OBJECT=tonemaster-beat-pack.zip
+SUPABASE_TONE_OBJECT=38_Roland_E500_Inspired_Fretless_Bright.wav
 
-DEPLOYMENT
-- Extract this ZIP into the ROOT of the existing GitHub repository, preserving folder paths.
-- It includes assets/bratee-beat-pack.zip for private development/testing. Do not publicly distribute sounds unless you have permission to redistribute them.
-- config.js remains in development preview mode. Real authentication and licence activation require Supabase setup and Vercel server environment variables described in the project documentation.
-- The app does not process R100 payments. Licence keys must only be issued after payment is independently confirmed.
+Never put SUPABASE_SERVICE_ROLE_KEY or MG_SOUNDS_ADMIN_SECRET in browser files or GitHub.
 
-ROLAND SVD
-The .SVD instrument expansion file was not present in either uploaded ZIP. A Roland .SVD file is not a WAV sample bank and cannot be loaded directly by this browser app or the Yamaha YPT-360.
+Existing database schema expected: public.licenses(key_hash unique,status,assigned_user_id,activated_at,expires_at). Status values: available, active, revoked, expired. No schema reset is required.
+
+Private storage bucket tonemaster-audio must contain tonemaster-beat-pack.zip and 38_Roland_E500_Inspired_Fretless_Bright.wav.
+
+Admin key generation: /admin.html. Generate keys only after payment is independently confirmed. The app does not process payments.
+
+The beat pack is downloaded once and cached locally for offline playback. The fretless WAV is fetched with a short-lived signed URL after licence verification.

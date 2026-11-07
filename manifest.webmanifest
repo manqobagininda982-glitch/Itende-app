@@ -1,11 +1,11 @@
 {
-  "name": "BraTee iTende Studio",
-  "short_name": "iTende Studio",
+  "name": "ToneMaster",
+  "short_name": "ToneMaster",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "landscape",
+  "orientation": "any",
   "background_color": "#0a0e18",
   "theme_color": "#0b1020",
-  "description": "MIDI sampler and iTende beat player"
+  "description": "MIDI sampler and iTende beat player by MG:SOUNDS"
 }

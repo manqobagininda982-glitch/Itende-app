@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#0b1020">
-  <meta name="description" content="BraTee iTende Studio — MIDI sampler and iTende beat player">
+  <meta name="description" content="ToneMaster — MIDI sampler and iTende beat player">
   <link rel="manifest" href="./manifest.webmanifest">
-  <title>BraTee iTende Studio</title>
+  <title>ToneMaster</title>
   <style>
     :root{color-scheme:dark;--bg:#0a0e18;--panel:#121a2a;--panel2:#1a263a;--line:#2b3a54;--txt:#f6f8fc;--muted:#aab7cc;--green:#54e0a6;--blue:#8cb7ff;--warn:#ffcf78;--red:#ff8585}
     *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:radial-gradient(ellipse at top,#1c3150 0,#0a0e18 56%);color:var(--txt);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
@@ -18,18 +18,17 @@
     .loop-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:7px;margin:12px 0}.loop-btn{padding:14px 4px;border-radius:12px;background:#1a2b42;color:#e9f2ff;border:1px solid #314966;font-size:17px}.loop-btn.active{background:var(--green);border-color:var(--green);color:#06150f}.loop-btn:disabled{opacity:.3}.loop-info{display:flex;justify-content:space-between;align-items:center;gap:10px}.range-line{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted)}.download-progress{width:100%;height:9px;border-radius:99px;overflow:hidden;background:#09111e;border:1px solid var(--line)}.download-progress>span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--green),var(--blue));transition:width .12s}.rotate-hint{display:none;position:fixed;inset:0;z-index:99;background:#080d17ed;align-items:center;justify-content:center;text-align:center;padding:28px}.rotate-hint .panel{max-width:330px}.rotate-icon{font-size:40px}.footer{text-align:center;color:#8190a9;font-size:11px;padding:20px 5px}
     @media(max-width:730px){.app-grid{grid-template-columns:1fr}.controls-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:430px){.wrap{padding:12px 10px}.panel{padding:13px}.loop-grid{gap:5px}.loop-btn{padding:12px 2px}.top-actions .pill{display:none}}
-    @media(orientation:portrait) and (max-width:900px){#rotateHint{display:flex}}
   </style>
 </head>
 <body>
 <div class="wrap">
   <header class="topbar">
-    <div class="brand"><div class="logo">BT</div><div><h1>BraTee iTende Studio</h1><div class="sub">MIDI sampler · 46 beat sets · live loop switching</div></div></div>
+    <div class="brand"><div class="logo">BT</div><div><h1>ToneMaster</h1><div class="sub">MIDI sampler · 37 beat sets · live loop switching</div></div></div>
     <div class="top-actions"><span id="accountPill" class="pill">Preview / not signed in</span><button id="logoutBtn" class="secondary hidden">Sign out</button></div>
   </header>
 
   <main id="authView" class="panel">
-    <div class="section-head"><div><h2>Welcome to BraTee iTende Studio</h2><div class="small">Create an account or sign in to unlock the studio.</div></div><span class="pill">V2</span></div>
+    <div class="section-head"><div><h2>Welcome to ToneMaster</h2><div class="small">Create an account or sign in to unlock the studio.</div></div><span class="pill">V2</span></div>
     <div class="auth-tabs" style="margin-top:14px"><button id="showLogin" class="active">Sign in</button><button id="showRegister" class="secondary">Register</button></div>
     <form id="loginForm" class="form">
       <div><label for="loginEmail">Email address</label><input id="loginEmail" type="email" autocomplete="username" required placeholder="you@example.com"></div>
@@ -39,22 +38,22 @@
     <form id="registerForm" class="form hidden">
       <div><label for="registerEmail">Email address</label><input id="registerEmail" type="email" autocomplete="email" required placeholder="you@example.com"></div>
       <div><label for="registerPassword">Create password</label><input id="registerPassword" type="password" autocomplete="new-password" required minlength="8" placeholder="At least 8 characters"></div>
-      <div><label for="registerKey">R100 licence key</label><input id="registerKey" type="text" autocapitalize="characters" autocomplete="off" required placeholder="BTI-XXXXX-XXXXX"></div>
+      <div><label for="registerKey">R100 licence key</label><input id="registerKey" type="text" autocapitalize="characters" autocomplete="off" required placeholder="TONE-XXXXXXXXXX-XXXXXXXXXX"></div>
       <button type="submit">Create account and activate</button>
-      <div class="small">The licence key is issued by BraTee Studios after the purchase is confirmed. This prototype does not collect payments.</div>
+      <div class="small">Licence keys are issued by MG:SOUNDS after payment is confirmed. This app does not process payments.</div>
     </form>
     <div id="authMessage" class="status" style="margin-top:12px">Sign in or register with a valid licence.</div>
-    <div id="demoArea" class="note" style="margin-top:12px">
-      Preview mode is enabled so you can test MIDI and beats before setting up accounts. This button is for development only and must be disabled before selling the app.
+    <div id="demoArea" class="note hidden" style="margin-top:12px">
+      Sign in with your ToneMaster account to access the studio.
       <div style="margin-top:10px"><button id="demoBtn" class="secondary">Open development preview</button></div>
     </div>
   </main>
 
   <section id="licenseView" class="panel hidden">
-    <h2>Activate BraTee iTende Studio</h2>
+    <h2>Activate ToneMaster</h2>
     <div class="license-price">R100 <span class="small">one-time app licence</span></div>
-    <p class="small">Enter the one-use licence key supplied by BraTee Studios. Keys are checked securely on the server.</p>
-    <form id="activateForm" class="form"><div><label for="activateKey">Licence key</label><input id="activateKey" required autocapitalize="characters" placeholder="BTI-XXXXX-XXXXX"></div><button type="submit">Activate licence</button></form>
+    <p class="small">Enter the one-use licence key supplied by MG:SOUNDS. Keys are checked securely on the server.</p>
+    <form id="activateForm" class="form"><div><label for="activateKey">Licence key</label><input id="activateKey" required autocapitalize="characters" placeholder="TONE-XXXXXXXXXX-XXXXXXXXXX"></div><button type="submit">Activate licence</button></form>
     <div id="licenseMessage" class="status" style="margin-top:12px">Your account is signed in but has no active licence yet.</div>
     <button id="licenseLogoutBtn" class="secondary" style="margin-top:10px;width:100%">Sign out</button>
   </section>
@@ -72,7 +71,7 @@
         <section class="panel">
           <h2>Tone sampler · WAV</h2>
           <p class="small">Load one or more WAV recordings. Name multisamples like C2.wav, F#2.wav or C3.wav so the app can map them across the keyboard.</p>
-          <label class="file-button" for="toneFile">Choose tone WAV bank</label><input id="toneFile" type="file" accept=".wav,audio/wav" multiple>
+          <div class="row"><button id="downloadToneBtn" class="secondary grow" type="button">Load ToneMaster fretless tone</button><label class="file-button grow" for="toneFile">Choose WAV bank</label></div><input id="toneFile" type="file" accept=".wav,audio/wav" multiple>
           <div id="toneStatus" class="status" style="margin-top:9px">No WAV tone sample loaded. The uploaded Roland SVD is not a WAV file.</div>
           <div class="controls-grid">
             <div class="field"><label for="rootNote">Sample root MIDI note</label><input id="rootNote" type="number" min="0" max="127" value="48"></div>
@@ -90,7 +89,7 @@
       <div class="stack">
         <section class="panel">
           <div class="section-head"><h2>iTende Beat Studio</h2><span id="beatPackBadge" class="pill">Beat library not downloaded</span></div>
-          <p class="small">Download the beat library once to save it on this phone for offline playing. The pack contains 333 short loops in 46 beat sets.</p>
+          <p class="small">Download the beat library once to save it on this phone for offline playing. The pack contains 258 loops across 37 beat sets.</p>
           <div class="row"><button id="downloadBeatsBtn" class="grow">Download beat library</button><button id="clearBeatsBtn" class="secondary">Remove downloads</button></div>
           <div class="download-progress" style="margin-top:10px"><span id="downloadProgress"></span></div>
           <div id="downloadStatus" class="small" style="margin-top:6px">Estimated pack size: about 23.7 MB. Use Wi-Fi if mobile data is limited.</div>
@@ -112,10 +111,9 @@
       </div>
     </div>
   </section>
-  <div class="footer">BraTee Studios · iTende Studio V2 · Personal test build</div>
+  <div class="footer">MG:SOUNDS · ToneMaster · Made by MG:SOUNDS</div>
 </div>
 
-<div id="rotateHint" class="rotate-hint"><div class="panel"><div class="rotate-icon">↻</div><h2>Rotate your phone</h2><p class="small">BraTee iTende Studio is designed for landscape performance. Turn your Galaxy sideways to use the full keyboard and beat controls.</p></div></div>
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="./config.js"></script>

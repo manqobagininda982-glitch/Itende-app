@@ -1,5 +1,5 @@
-const SHELL='bratee-shell-v2';
+const SHELL='tonemaster-shell-v1';
 const FILES=['./','./index.html','./app.js','./config.js','./manifest.webmanifest','./assets/beats-index.json'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(SHELL).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',event=>event.waitUntil((async()=>{const names=await caches.keys();await Promise.all(names.filter(n=>n.startsWith('bratee-shell-')&&n!==SHELL).map(n=>caches.delete(n)));await self.clients.claim();})()));
-self.addEventListener('fetch',event=>{const u=new URL(event.request.url);if(u.origin!==location.origin||event.request.method!=='GET')return;event.respondWith((async()=>{const cached=await caches.match(event.request);if(cached)return cached;try{const response=await fetch(event.request);if(response.ok&&event.request.mode==='navigate'){const c=await caches.open(SHELL);c.put('./index.html',response.clone());}return response;}catch(err){return (await caches.match('./index.html'))||Response.error();}})());});
+self.addEventListener('install',e=>e.waitUntil(caches.open(SHELL).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil((async()=>{const names=await caches.keys();await Promise.all(names.filter(n=>(n.startsWith('bratee-shell-')||n.startsWith('tonemaster-shell-'))&&n!==SHELL).map(n=>caches.delete(n)));await self.clients.claim();})()));
+self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(u.origin!==location.origin||e.request.method!=='GET'||u.pathname.startsWith('/api/'))return;e.respondWith((async()=>{const c=await caches.open(SHELL);const cached=await c.match(e.request);if(cached)return cached;try{const r=await fetch(e.request);if(r.ok&&e.request.mode==='navigate')await c.put('./index.html',r.clone());return r;}catch(_){return (await c.match('./index.html'))||Response.error();}})());});

@@ -1,8 +1,28 @@
 {
   "rewrites": [
-    { "source": "/api/license/status", "destination": "/api/index?action=status" },
-    { "source": "/api/license/activate", "destination": "/api/index?action=activate" },
-    { "source": "/api/beat-pack/url", "destination": "/api/index?action=beat-pack-url" },
-    { "source": "/api/admin/create-licenses", "destination": "/api/index?action=create-licenses" }
+    {
+      "source": "/api/config",
+      "destination": "/api/index?action=config"
+    },
+    {
+      "source": "/api/license/status",
+      "destination": "/api/index?action=status"
+    },
+    {
+      "source": "/api/license/activate",
+      "destination": "/api/index?action=activate"
+    },
+    {
+      "source": "/api/beat-pack/url",
+      "destination": "/api/index?action=beat-pack-url"
+    },
+    {
+      "source": "/api/tone-sample/url",
+      "destination": "/api/index?action=tone-sample-url"
+    },
+    {
+      "source": "/api/admin/create-licenses",
+      "destination": "/api/index?action=create-licenses"
+    }
   ]
 }

@@ -1,8 +1,8 @@
 (() => {
 'use strict';
 const $ = (id) => document.getElementById(id);
-const config = window.BRATEE_CONFIG || { demoMode: true, supabaseUrl: '', supabaseAnonKey: '' };
-const CACHE_NAME = 'bratee-itende-beats-v2';
+const config = window.TONEMASTER_CONFIG || { demoMode: false, supabaseUrl: '', supabaseAnonKey: '' };
+const CACHE_NAME = 'tonemaster-beats-v1';
 const APP_VERSION = '2.0.0';
 let audioCtx = null, instrumentGain = null, beatGain = null, instrumentSamples = [];
 let midiAccess = null, selectedMidi = null, activeNotes = new Map();
@@ -12,11 +12,12 @@ const hasSupabaseConfig = !!(config.supabaseUrl && config.supabaseAnonKey && !St
 
 function status(el, message, kind='') { if (!el) return; el.textContent = message; el.className = 'status' + (kind ? ' ' + kind : ''); }
 function setVisible(el, visible) { el.classList.toggle('hidden', !visible); }
-function cacheUrl(path) { return new URL('/__bratee_beats__/' + path.replace(/^\/+/, ''), location.origin).href; }
+function cacheUrl(path) { return new URL('/__tonemaster_beats__/' + path.replace(/^\/+/, ''), location.origin).href; }
 function storageCache() { return caches.open(CACHE_NAME); }
 function totalLoops() { return beatIndex.reduce((n,g) => n + g.loops.length, 0); }
-function configureAuth() {
-  if (hasSupabaseConfig && window.supabase && window.supabase.createClient) {
+async function configureAuth() {
+  try { const response = await fetch('/api/config', {cache:'no-store'}); if (!response.ok) throw new Error('Server configuration unavailable.'); Object.assign(config, await response.json()); } catch (_) { config.demoMode = false; }
+  if (config.supabaseUrl && config.supabaseAnonKey && window.supabase && window.supabase.createClient) {
     supabaseClient = window.supabase.createClient(config.supabaseUrl, config.supabaseAnonKey);
   }
   $('demoArea').classList.toggle('hidden', !config.demoMode);
@@ -38,13 +39,11 @@ function showLicense(message='Your account needs an active licence.') {
 }
 function showStudio(label) {
   setVisible($('authView'), false); setVisible($('licenseView'), false); setVisible($('studioView'), true);
-  $('accountPill').textContent = label || (demoSession ? 'Development preview' : currentSession?.user?.email || 'Licensed');
+  $('accountPill').textContent = label || (demoSession ? 'Preview disabled' : currentSession?.user?.email || 'Licensed');
   setVisible($('logoutBtn'), !demoSession);
   loadBeatIndex().then(refreshBeatUi).catch(err => status($('beatStatus'), 'Could not load beat index: ' + err.message, 'bad'));
 }
-async function tryLandscapeLock() {
-  try { if (screen.orientation && screen.orientation.lock) await screen.orientation.lock('landscape'); } catch (_) { /* browsers may only allow this in an installed fullscreen PWA */ }
-}
+async function tryLandscapeLock() { /* ToneMaster supports portrait and landscape layouts. */ }
 
 // ---- Authentication and licence gate ----
 async function apiCall(path, body) {
@@ -76,8 +75,8 @@ $('loginForm').addEventListener('submit', async (e) => {
   try {
     const {data,error}=await supabaseClient.auth.signInWithPassword({email:$('loginEmail').value.trim(),password:$('loginPassword').value});
     if(error) throw error; currentSession=data.session;
-    const pendingKey=sessionStorage.getItem('bratee_pending_licence');
-    if(pendingKey){await activateLicence(pendingKey);sessionStorage.removeItem('bratee_pending_licence');}
+    const pendingKey=sessionStorage.getItem('tonemaster_pending_licence');
+    if(pendingKey){await activateLicence(pendingKey);sessionStorage.removeItem('tonemaster_pending_licence');}
     await checkLicence();
   } catch(err) { status($('authMessage'), err.message, 'bad'); }
   finally { button.disabled=false; }
@@ -90,7 +89,7 @@ $('registerForm').addEventListener('submit', async (e) => {
     const {data,error}=await supabaseClient.auth.signUp({email:$('registerEmail').value.trim(),password:$('registerPassword').value,options:{emailRedirectTo:location.origin}});
     if(error) throw error;
     if(data.session){ currentSession=data.session; await activateLicence(key); await checkLicence(); }
-    else { sessionStorage.setItem('bratee_pending_licence',key); showLoginTab(false); status($('authMessage'),'Account created. Check your email to verify it, then sign in and activate the licence key you entered.','ok'); }
+    else { sessionStorage.setItem('tonemaster_pending_licence',key); showLoginTab(false); status($('authMessage'),'Account created. Check your email to verify it, then sign in and activate the licence key you entered.','ok'); }
   } catch(err) { status($('authMessage'), err.message, 'bad'); }
   finally { button.disabled=false; }
 });
@@ -105,15 +104,15 @@ async function signOut() {
   currentSession=null; demoSession=false; stopAllNotes(); stopBeat(); showAuth('You have signed out.');
 }
 $('logoutBtn').addEventListener('click', signOut); $('licenseLogoutBtn').addEventListener('click', signOut);
-$('demoBtn').addEventListener('click', async () => { if (!config.demoMode) return; demoSession=true; await tryLandscapeLock(); showStudio('Development preview'); });
+$('demoBtn').addEventListener('click', async () => { if (!config.demoMode) return; demoSession=true; return; });
 async function initAuth() {
-  configureAuth();
+  await configureAuth();
   if (!supabaseClient) { showAuth(hasSupabaseConfig ? 'Supabase library did not load. Check your connection.' : 'Real login and licence checking are not configured yet. Development preview is available.'); return; }
   const {data:{session}}=await supabaseClient.auth.getSession();
   if (session) { currentSession=session; await checkLicence(); } else showAuth('Sign in or register with an active licence.');
   supabaseClient.auth.onAuthStateChange(async (event,sessionNow) => {
     if (event === 'SIGNED_OUT') { currentSession=null; showAuth('You have signed out.'); return; }
-    if (event === 'SIGNED_IN' && sessionNow && !currentSession) { currentSession=sessionNow; const pending=sessionStorage.getItem('bratee_pending_licence'); if(pending){try{await activateLicence(pending);sessionStorage.removeItem('bratee_pending_licence');}catch(err){showLicense(err.message);return;}} await checkLicence(); }
+    if (event === 'SIGNED_IN' && sessionNow && !currentSession) { currentSession=sessionNow; const pending=sessionStorage.getItem('tonemaster_pending_licence'); if(pending){try{await activateLicence(pending);sessionStorage.removeItem('tonemaster_pending_licence');}catch(err){showLicense(err.message);return;}} await checkLicence(); }
   });
 }
 
@@ -149,6 +148,20 @@ function parseRootNoteFromName(fileName){
   const octave=Number(match[3]);const midi=(octave+1)*12+semi;
   return midi>=0&&midi<=127?midi:null;
 }
+$('downloadToneBtn').addEventListener('click', async () => {
+  const button=$('downloadToneBtn'); button.disabled=true;
+  try {
+    await ensureAudio();
+    const access=await apiCall('/api/tone-sample/url',{});
+    const response=await fetch(access.url);
+    if(!response.ok) throw new Error('Tone sample download failed.');
+    const buffer=await audioCtx.decodeAudioData(await response.arrayBuffer());
+    instrumentSamples=[{buffer,rootNote:Math.max(0,Math.min(127,Number($('rootNote').value)||48)),name:'ToneMaster fretless'}];
+    $('toneStatus').textContent='ToneMaster fretless tone loaded. Connect MIDI or tap Test root note.';
+    $('toneStatus').className='status ok'; $('testToneBtn').disabled=false;
+  } catch(err) { status($('toneStatus'),err.message,'bad'); }
+  finally { button.disabled=false; }
+});
 $('toneFile').addEventListener('change',async(e)=>{
   const files=Array.from(e.target.files||[]);if(!files.length)return;
   try {
@@ -200,9 +213,10 @@ $('midiInputs').addEventListener('change',()=>{const chosen=[...(midiAccess?.inp
 
 // ---- Beat library download and playback ----
 async function loadBeatIndex(){if(beatIndex.length)return;const response=await fetch('./assets/beats-index.json');if(!response.ok)throw new Error('Beat index missing.');beatIndex=await response.json();}
-async function isBeatPackDownloaded(){if(!beatIndex.length)return false;const cache=await storageCache();const keys=await cache.keys();const present=new Set(keys.map(k=>k.url));for(const g of beatIndex){for(const loop of g.loops){if(!present.has(cacheUrl(loop.file)))return false;}}return true;}
+async function syncBeatIndexToCache(){const cache=await storageCache();const marker=await cache.match(cacheUrl('__manifest.json'));if(!marker)return;const names=new Set(await marker.json());beatIndex=beatIndex.map(g=>({...g,loops:g.loops.filter(l=>names.has(l.file))})).filter(g=>g.loops.length);}
+async function isBeatPackDownloaded(){const cache=await storageCache();const marker=await cache.match(cacheUrl('__manifest.json'));if(!marker)return false;const names=await marker.json();if(!Array.isArray(names)||!names.length)return false;const keys=new Set((await cache.keys()).map(k=>k.url));return names.every(name=>keys.has(cacheUrl(name)));}
 async function refreshBeatUi(){
-  if(!beatIndex.length)return;const select=$('beatGroup'),old=select.value;select.innerHTML='';
+  if(!beatIndex.length)return;await syncBeatIndexToCache();if(!beatIndex.length)return;const select=$('beatGroup'),old=select.value;select.innerHTML='';
   for(const group of beatIndex){const label=group.name+(group.bpm?' · '+group.bpm+' BPM':'');select.add(new Option(label,group.id));}
   selectedGroup=beatIndex.find(g=>g.id===old)||beatIndex[0];select.value=selectedGroup.id;renderSelectedGroup();
   const downloaded=await isBeatPackDownloaded();$('beatPackBadge').textContent=downloaded?'Beat library ready offline':'Beat library not downloaded';
@@ -220,13 +234,13 @@ function highlightLoop(){document.querySelectorAll('.loop-btn').forEach(b=>b.cla
 $('beatGroup').addEventListener('change',()=>{selectedGroup=beatIndex.find(g=>g.id===$('beatGroup').value)||null;decodedLoops.clear();renderSelectedGroup();if(beatPlaying&&selectedGroup)selectLoop(selectedGroup.loops[0].loop,true);});
 async function unpackBeatLibrary(){
   if(!window.JSZip){throw new Error('ZIP library could not load. Connect to the internet and refresh the page.');}
-  let packUrl='./assets/bratee-beat-pack.zip';
+  let packUrl='';
   if(!demoSession){const access=await apiCall('/api/beat-pack/url',{});packUrl=access.url;}
   const response=await fetch(packUrl);if(!response.ok)throw new Error('Beat pack download failed. Check your internet connection and licence.');
   const blob=await response.blob();const zip=await window.JSZip.loadAsync(blob);const files=Object.values(zip.files).filter(f=>!f.dir&&f.name.toLowerCase().endsWith('.mp3'));
   const cache=await storageCache();let done=0;
   for(const file of files){const audioBlob=await file.async('blob');const key=cacheUrl(file.name);await cache.put(new Request(key),new Response(audioBlob,{headers:{'Content-Type':'audio/mpeg'}}));done++;$('downloadProgress').style.width=(done/files.length*100).toFixed(1)+'%';$('downloadStatus').textContent='Saving beat '+done+' of '+files.length+'…';}
-  if(files.length!==totalLoops())throw new Error('The ZIP has '+files.length+' loops, but the beat index lists '+totalLoops()+'.');
+  const available=files.map(f=>f.name);await cache.put(new Request(cacheUrl('__manifest.json')),new Response(JSON.stringify(available),{headers:{'Content-Type':'application/json'}}));
 }
 $('downloadBeatsBtn').addEventListener('click',async()=>{
   const b=$('downloadBeatsBtn');b.disabled=true;$('downloadProgress').style.width='0%';
