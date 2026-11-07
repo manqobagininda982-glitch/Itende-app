@@ -1,1 +1,2701 @@
-
+[
+  {
+    "id": "50_s_Chorus_143",
+    "name": "50 s Chorus 143",
+    "category": "50 s Chorus 143",
+    "bpm": 143,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/50_s_Chorus_143/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 2,
+        "file": "beats/50_s_Chorus_143/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 3,
+        "file": "beats/50_s_Chorus_143/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 4,
+        "file": "beats/50_s_Chorus_143/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 5,
+        "file": "beats/50_s_Chorus_143/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 6,
+        "file": "beats/50_s_Chorus_143/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      }
+    ]
+  },
+  {
+    "id": "50_s_Chorus_147",
+    "name": "50 s Chorus 147",
+    "category": "50 s Chorus 147",
+    "bpm": 147,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/50_s_Chorus_147/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 2,
+        "file": "beats/50_s_Chorus_147/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 3,
+        "file": "beats/50_s_Chorus_147/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 4,
+        "file": "beats/50_s_Chorus_147/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 5,
+        "file": "beats/50_s_Chorus_147/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 6,
+        "file": "beats/50_s_Chorus_147/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      }
+    ]
+  },
+  {
+    "id": "AM_Worship_45",
+    "name": "AM Worship 45",
+    "category": "AM Worship 45",
+    "bpm": 45,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/AM_Worship_45/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 2,
+        "file": "beats/AM_Worship_45/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 3,
+        "file": "beats/AM_Worship_45/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 4,
+        "file": "beats/AM_Worship_45/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 5,
+        "file": "beats/AM_Worship_45/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/AM_Worship_45/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 7,
+        "file": "beats/AM_Worship_45/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 8,
+        "file": "beats/AM_Worship_45/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      }
+    ]
+  },
+  {
+    "id": "AM_Worship_48",
+    "name": "AM Worship 48",
+    "category": "AM Worship 48",
+    "bpm": 48,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/AM_Worship_48/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/AM_Worship_48/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/AM_Worship_48/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/AM_Worship_48/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/AM_Worship_48/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/AM_Worship_48/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 7,
+        "file": "beats/AM_Worship_48/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 8,
+        "file": "beats/AM_Worship_48/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      }
+    ]
+  },
+  {
+    "id": "Chrs_Time_140",
+    "name": "Chrs Time 140",
+    "category": "Chrs Time 140",
+    "bpm": 140,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Chrs_Time_140/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 2,
+        "file": "beats/Chrs_Time_140/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 3,
+        "file": "beats/Chrs_Time_140/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 4,
+        "file": "beats/Chrs_Time_140/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 5,
+        "file": "beats/Chrs_Time_140/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 6,
+        "file": "beats/Chrs_Time_140/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      }
+    ]
+  },
+  {
+    "id": "Chrs_Time_143",
+    "name": "Chrs Time 143",
+    "category": "Chrs Time 143",
+    "bpm": 143,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Chrs_Time_143/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 2,
+        "file": "beats/Chrs_Time_143/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 3,
+        "file": "beats/Chrs_Time_143/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 4,
+        "file": "beats/Chrs_Time_143/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 5,
+        "file": "beats/Chrs_Time_143/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 6,
+        "file": "beats/Chrs_Time_143/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      }
+    ]
+  },
+  {
+    "id": "ChweChwing_Slow_45",
+    "name": "ChweChwing Slow 45",
+    "category": "ChweChwing Slow 45",
+    "bpm": 45,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/ChweChwing_Slow_45/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 84845,
+        "duration": 5.274717
+      },
+      {
+        "loop": 2,
+        "file": "beats/ChweChwing_Slow_45/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 169273,
+        "duration": 10.549433
+      },
+      {
+        "loop": 3,
+        "file": "beats/ChweChwing_Slow_45/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 127059,
+        "duration": 7.912086
+      },
+      {
+        "loop": 4,
+        "file": "beats/ChweChwing_Slow_45/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 169273,
+        "duration": 10.549433
+      },
+      {
+        "loop": 5,
+        "file": "beats/ChweChwing_Slow_45/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 169273,
+        "duration": 10.549433
+      },
+      {
+        "loop": 6,
+        "file": "beats/ChweChwing_Slow_45/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 169273,
+        "duration": 10.549433
+      }
+    ]
+  },
+  {
+    "id": "ChweChwing_Slow_48",
+    "name": "ChweChwing Slow 48",
+    "category": "ChweChwing Slow 48",
+    "bpm": 48,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/ChweChwing_Slow_48/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/ChweChwing_Slow_48/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/ChweChwing_Slow_48/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 120790,
+        "duration": 7.5
+      },
+      {
+        "loop": 4,
+        "file": "beats/ChweChwing_Slow_48/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/ChweChwing_Slow_48/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/ChweChwing_Slow_48/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      }
+    ]
+  },
+  {
+    "id": "Chwechwa1_45",
+    "name": "Chwechwa1 45",
+    "category": "Chwechwa1 45",
+    "bpm": 45,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Chwechwa1_45/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 128731,
+        "duration": 8.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/Chwechwa1_45/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 3,
+        "file": "beats/Chwechwa1_45/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 4,
+        "file": "beats/Chwechwa1_45/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 5,
+        "file": "beats/Chwechwa1_45/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/Chwechwa1_45/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 7,
+        "file": "beats/Chwechwa1_45/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 8,
+        "file": "beats/Chwechwa1_45/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      }
+    ]
+  },
+  {
+    "id": "Chwechwa1_48",
+    "name": "Chwechwa1 48",
+    "category": "Chwechwa1 48",
+    "bpm": 48,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Chwechwa1_48/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 120790,
+        "duration": 7.5
+      },
+      {
+        "loop": 2,
+        "file": "beats/Chwechwa1_48/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/Chwechwa1_48/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/Chwechwa1_48/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/Chwechwa1_48/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/Chwechwa1_48/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 7,
+        "file": "beats/Chwechwa1_48/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 8,
+        "file": "beats/Chwechwa1_48/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      }
+    ]
+  },
+  {
+    "id": "Chwechwa_Mood_45",
+    "name": "Chwechwa Mood 45",
+    "category": "Chwechwa Mood 45",
+    "bpm": 45,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Chwechwa_Mood_45/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 2,
+        "file": "beats/Chwechwa_Mood_45/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 3,
+        "file": "beats/Chwechwa_Mood_45/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 4,
+        "file": "beats/Chwechwa_Mood_45/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 5,
+        "file": "beats/Chwechwa_Mood_45/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/Chwechwa_Mood_45/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      }
+    ]
+  },
+  {
+    "id": "Chwechwa_Mood_48",
+    "name": "Chwechwa Mood 48",
+    "category": "Chwechwa Mood 48",
+    "bpm": 48,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Chwechwa_Mood_48/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/Chwechwa_Mood_48/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/Chwechwa_Mood_48/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/Chwechwa_Mood_48/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/Chwechwa_Mood_48/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/Chwechwa_Mood_48/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      }
+    ]
+  },
+  {
+    "id": "Fast_Chorus_144",
+    "name": "Fast Chorus 144",
+    "category": "Fast Chorus 144",
+    "bpm": 144,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Fast_Chorus_144/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 2,
+        "file": "beats/Fast_Chorus_144/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 3,
+        "file": "beats/Fast_Chorus_144/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 4,
+        "file": "beats/Fast_Chorus_144/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 5,
+        "file": "beats/Fast_Chorus_144/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/Fast_Chorus_144/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 7,
+        "file": "beats/Fast_Chorus_144/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 8,
+        "file": "beats/Fast_Chorus_144/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      }
+    ]
+  },
+  {
+    "id": "Fast_Chorus_148",
+    "name": "Fast Chorus 148",
+    "category": "Fast Chorus 148",
+    "bpm": 148,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Fast_Chorus_148/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 2,
+        "file": "beats/Fast_Chorus_148/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 3,
+        "file": "beats/Fast_Chorus_148/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 4,
+        "file": "beats/Fast_Chorus_148/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 5,
+        "file": "beats/Fast_Chorus_148/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 6,
+        "file": "beats/Fast_Chorus_148/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 7,
+        "file": "beats/Fast_Chorus_148/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 8,
+        "file": "beats/Fast_Chorus_148/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      }
+    ]
+  },
+  {
+    "id": "Gijima_Chrs_140",
+    "name": "Gijima Chrs 140",
+    "category": "Gijima Chrs 140",
+    "bpm": 140,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Gijima_Chrs_140/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 2,
+        "file": "beats/Gijima_Chrs_140/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 3,
+        "file": "beats/Gijima_Chrs_140/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 4,
+        "file": "beats/Gijima_Chrs_140/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 5,
+        "file": "beats/Gijima_Chrs_140/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 6,
+        "file": "beats/Gijima_Chrs_140/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      }
+    ]
+  },
+  {
+    "id": "Gijima_Chrs_143",
+    "name": "Gijima Chrs 143",
+    "category": "Gijima Chrs 143",
+    "bpm": 143,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Gijima_Chrs_143/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 2,
+        "file": "beats/Gijima_Chrs_143/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 3,
+        "file": "beats/Gijima_Chrs_143/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 4,
+        "file": "beats/Gijima_Chrs_143/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 5,
+        "file": "beats/Gijima_Chrs_143/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 6,
+        "file": "beats/Gijima_Chrs_143/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      }
+    ]
+  },
+  {
+    "id": "Gwaba_Sayoni_85",
+    "name": "Gwaba Sayoni 85",
+    "category": "Gwaba Sayoni 85",
+    "bpm": 85,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Gwaba_Sayoni_85/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      },
+      {
+        "loop": 2,
+        "file": "beats/Gwaba_Sayoni_85/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      },
+      {
+        "loop": 3,
+        "file": "beats/Gwaba_Sayoni_85/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      },
+      {
+        "loop": 4,
+        "file": "beats/Gwaba_Sayoni_85/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      },
+      {
+        "loop": 5,
+        "file": "beats/Gwaba_Sayoni_85/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      },
+      {
+        "loop": 6,
+        "file": "beats/Gwaba_Sayoni_85/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      },
+      {
+        "loop": 7,
+        "file": "beats/Gwaba_Sayoni_85/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      },
+      {
+        "loop": 8,
+        "file": "beats/Gwaba_Sayoni_85/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 91115,
+        "duration": 5.647075
+      }
+    ]
+  },
+  {
+    "id": "Gwaba_Sayoni_90",
+    "name": "Gwaba Sayoni 90",
+    "category": "Gwaba Sayoni 90",
+    "bpm": 90,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Gwaba_Sayoni_90/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 2,
+        "file": "beats/Gwaba_Sayoni_90/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 3,
+        "file": "beats/Gwaba_Sayoni_90/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 4,
+        "file": "beats/Gwaba_Sayoni_90/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 5,
+        "file": "beats/Gwaba_Sayoni_90/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/Gwaba_Sayoni_90/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 7,
+        "file": "beats/Gwaba_Sayoni_90/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 8,
+        "file": "beats/Gwaba_Sayoni_90/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      }
+    ]
+  },
+  {
+    "id": "Ihhi_Ihhi_80",
+    "name": "Ihhi Ihhi 80",
+    "category": "Ihhi Ihhi 80",
+    "bpm": 80,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Ihhi_Ihhi_80/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      },
+      {
+        "loop": 2,
+        "file": "beats/Ihhi_Ihhi_80/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      },
+      {
+        "loop": 3,
+        "file": "beats/Ihhi_Ihhi_80/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      },
+      {
+        "loop": 4,
+        "file": "beats/Ihhi_Ihhi_80/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      },
+      {
+        "loop": 5,
+        "file": "beats/Ihhi_Ihhi_80/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      },
+      {
+        "loop": 6,
+        "file": "beats/Ihhi_Ihhi_80/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      },
+      {
+        "loop": 7,
+        "file": "beats/Ihhi_Ihhi_80/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      },
+      {
+        "loop": 8,
+        "file": "beats/Ihhi_Ihhi_80/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 44721,
+        "duration": 2.75
+      }
+    ]
+  },
+  {
+    "id": "Ihhi_Ihhi_85",
+    "name": "Ihhi Ihhi 85",
+    "category": "Ihhi Ihhi 85",
+    "bpm": 85,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Ihhi_Ihhi_85/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      },
+      {
+        "loop": 2,
+        "file": "beats/Ihhi_Ihhi_85/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      },
+      {
+        "loop": 3,
+        "file": "beats/Ihhi_Ihhi_85/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      },
+      {
+        "loop": 4,
+        "file": "beats/Ihhi_Ihhi_85/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      },
+      {
+        "loop": 5,
+        "file": "beats/Ihhi_Ihhi_85/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      },
+      {
+        "loop": 6,
+        "file": "beats/Ihhi_Ihhi_85/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      },
+      {
+        "loop": 7,
+        "file": "beats/Ihhi_Ihhi_85/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      },
+      {
+        "loop": 8,
+        "file": "beats/Ihhi_Ihhi_85/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 43467,
+        "duration": 2.675669
+      }
+    ]
+  },
+  {
+    "id": "Imothayi_Thomoyi_140",
+    "name": "Imothayi Thomoyi 140",
+    "category": "Imothayi Thomoyi 140",
+    "bpm": 140,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Imothayi_Thomoyi_140/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 2,
+        "file": "beats/Imothayi_Thomoyi_140/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 3,
+        "file": "beats/Imothayi_Thomoyi_140/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 4,
+        "file": "beats/Imothayi_Thomoyi_140/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 5,
+        "file": "beats/Imothayi_Thomoyi_140/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 6,
+        "file": "beats/Imothayi_Thomoyi_140/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 7,
+        "file": "beats/Imothayi_Thomoyi_140/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 8,
+        "file": "beats/Imothayi_Thomoyi_140/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      }
+    ]
+  },
+  {
+    "id": "Imothayi_Thomoyi_143",
+    "name": "Imothayi Thomoyi 143",
+    "category": "Imothayi Thomoyi 143",
+    "bpm": 143,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Imothayi_Thomoyi_143/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 2,
+        "file": "beats/Imothayi_Thomoyi_143/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 3,
+        "file": "beats/Imothayi_Thomoyi_143/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 4,
+        "file": "beats/Imothayi_Thomoyi_143/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 5,
+        "file": "beats/Imothayi_Thomoyi_143/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 6,
+        "file": "beats/Imothayi_Thomoyi_143/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 7,
+        "file": "beats/Imothayi_Thomoyi_143/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 8,
+        "file": "beats/Imothayi_Thomoyi_143/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      }
+    ]
+  },
+  {
+    "id": "Itende_Blues_57",
+    "name": "Itende Blues 57",
+    "category": "Itende Blues 57",
+    "bpm": 57,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Itende_Blues_57/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 101564,
+        "duration": 6.315805
+      },
+      {
+        "loop": 2,
+        "file": "beats/Itende_Blues_57/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 101564,
+        "duration": 6.315805
+      },
+      {
+        "loop": 3,
+        "file": "beats/Itende_Blues_57/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 101564,
+        "duration": 6.315805
+      },
+      {
+        "loop": 4,
+        "file": "beats/Itende_Blues_57/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 101564,
+        "duration": 6.315805
+      },
+      {
+        "loop": 5,
+        "file": "beats/Itende_Blues_57/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 101564,
+        "duration": 6.315805
+      },
+      {
+        "loop": 6,
+        "file": "beats/Itende_Blues_57/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 101564,
+        "duration": 6.315805
+      }
+    ]
+  },
+  {
+    "id": "Itende_Blues_60",
+    "name": "Itende Blues 60",
+    "category": "Itende Blues 60",
+    "bpm": 60,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Itende_Blues_60/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 96548,
+        "duration": 6.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/Itende_Blues_60/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 96548,
+        "duration": 6.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/Itende_Blues_60/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 96548,
+        "duration": 6.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/Itende_Blues_60/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 96548,
+        "duration": 6.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/Itende_Blues_60/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 96548,
+        "duration": 6.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/Itende_Blues_60/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 96548,
+        "duration": 6.0
+      }
+    ]
+  },
+  {
+    "id": "KU_CHE_KUCHE_160",
+    "name": "KU CHE KUCHE 160",
+    "category": "KU CHE KUCHE 160",
+    "bpm": 160,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/KU_CHE_KUCHE_160/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/KU_CHE_KUCHE_160/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/KU_CHE_KUCHE_160/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/KU_CHE_KUCHE_160/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/KU_CHE_KUCHE_160/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/KU_CHE_KUCHE_160/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 7,
+        "file": "beats/KU_CHE_KUCHE_160/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 8,
+        "file": "beats/KU_CHE_KUCHE_160/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 72724,
+        "duration": 4.5
+      }
+    ]
+  },
+  {
+    "id": "KU_CHE_KU_CHE_153",
+    "name": "KU CHE KU CHE 153",
+    "category": "KU CHE KU CHE 153",
+    "bpm": 153,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/KU_CHE_KU_CHE_153/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 50991,
+        "duration": 3.137256
+      },
+      {
+        "loop": 2,
+        "file": "beats/KU_CHE_KU_CHE_153/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 50991,
+        "duration": 3.137256
+      },
+      {
+        "loop": 3,
+        "file": "beats/KU_CHE_KU_CHE_153/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 50991,
+        "duration": 3.137256
+      },
+      {
+        "loop": 4,
+        "file": "beats/KU_CHE_KU_CHE_153/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 50991,
+        "duration": 3.137256
+      },
+      {
+        "loop": 5,
+        "file": "beats/KU_CHE_KU_CHE_153/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 50991,
+        "duration": 3.137256
+      },
+      {
+        "loop": 6,
+        "file": "beats/KU_CHE_KU_CHE_153/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 50991,
+        "duration": 3.137256
+      },
+      {
+        "loop": 7,
+        "file": "beats/KU_CHE_KU_CHE_153/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 50991,
+        "duration": 3.137256
+      },
+      {
+        "loop": 8,
+        "file": "beats/KU_CHE_KU_CHE_153/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 76068,
+        "duration": 4.705896
+      }
+    ]
+  },
+  {
+    "id": "KucheKuche_Beat_160",
+    "name": "KucheKuche Beat 160",
+    "category": "KucheKuche Beat 160",
+    "bpm": 160,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/KucheKuche_Beat_160/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/KucheKuche_Beat_160/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/KucheKuche_Beat_160/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/KucheKuche_Beat_160/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/KucheKuche_Beat_160/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/KucheKuche_Beat_160/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 7,
+        "file": "beats/KucheKuche_Beat_160/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 8,
+        "file": "beats/KucheKuche_Beat_160/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      }
+    ]
+  },
+  {
+    "id": "Kuche_Kuche-2",
+    "name": "Kuche Kuche 2",
+    "category": "Kuche Kuche-2",
+    "bpm": null,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Kuche_Kuche-2/loop1.mp3",
+        "source": "LIMPOPO BEAT EDITED.wav",
+        "bytes": 384522,
+        "duration": 24.0
+      }
+    ]
+  },
+  {
+    "id": "Kuche_Kuche-2__Kuche_kuche_II_160",
+    "name": "Kuche kuche II 160",
+    "category": "Kuche Kuche-2",
+    "bpm": 160,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 7,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 8,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_160/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      }
+    ]
+  },
+  {
+    "id": "Kuche_Kuche-2__Kuche_kuche_II_167",
+    "name": "Kuche kuche II 167",
+    "category": "Kuche Kuche-2",
+    "bpm": 167,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 2,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 3,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 4,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 5,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 6,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 7,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 8,
+        "file": "beats/Kuche_Kuche-2__Kuche_kuche_II_167/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      }
+    ]
+  },
+  {
+    "id": "Kuche_Kuche__Kuche_kuche_II_160",
+    "name": "Kuche kuche II 160",
+    "category": "Kuche Kuche",
+    "bpm": 160,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 7,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      },
+      {
+        "loop": 8,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_160/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 48483,
+        "duration": 3.0
+      }
+    ]
+  },
+  {
+    "id": "Kuche_Kuche__Kuche_kuche_II_167",
+    "name": "Kuche kuche II 167",
+    "category": "Kuche Kuche",
+    "bpm": 167,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 2,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 3,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 4,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 5,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 6,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 7,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      },
+      {
+        "loop": 8,
+        "file": "beats/Kuche_Kuche__Kuche_kuche_II_167/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 46811,
+        "duration": 2.874263
+      }
+    ]
+  },
+  {
+    "id": "Piano_roll_100",
+    "name": "Piano roll 100",
+    "category": "Piano roll 100",
+    "bpm": 100,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Piano_roll_100/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      },
+      {
+        "loop": 2,
+        "file": "beats/Piano_roll_100/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      },
+      {
+        "loop": 3,
+        "file": "beats/Piano_roll_100/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      },
+      {
+        "loop": 4,
+        "file": "beats/Piano_roll_100/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      },
+      {
+        "loop": 5,
+        "file": "beats/Piano_roll_100/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      },
+      {
+        "loop": 6,
+        "file": "beats/Piano_roll_100/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      },
+      {
+        "loop": 7,
+        "file": "beats/Piano_roll_100/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      },
+      {
+        "loop": 8,
+        "file": "beats/Piano_roll_100/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 77322,
+        "duration": 4.8
+      }
+    ]
+  },
+  {
+    "id": "Piano_roll_95",
+    "name": "Piano roll 95",
+    "category": "Piano roll 95",
+    "bpm": 95,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Piano_roll_95/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      },
+      {
+        "loop": 2,
+        "file": "beats/Piano_roll_95/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      },
+      {
+        "loop": 3,
+        "file": "beats/Piano_roll_95/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      },
+      {
+        "loop": 4,
+        "file": "beats/Piano_roll_95/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      },
+      {
+        "loop": 5,
+        "file": "beats/Piano_roll_95/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      },
+      {
+        "loop": 6,
+        "file": "beats/Piano_roll_95/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      },
+      {
+        "loop": 7,
+        "file": "beats/Piano_roll_95/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      },
+      {
+        "loop": 8,
+        "file": "beats/Piano_roll_95/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 81502,
+        "duration": 5.05263
+      }
+    ]
+  },
+  {
+    "id": "Sgubhu_eZion_90",
+    "name": "Sgubhu eZion 90",
+    "category": "Sgubhu eZion 90",
+    "bpm": 90,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Sgubhu_eZion_90/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 2,
+        "file": "beats/Sgubhu_eZion_90/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 3,
+        "file": "beats/Sgubhu_eZion_90/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 4,
+        "file": "beats/Sgubhu_eZion_90/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 5,
+        "file": "beats/Sgubhu_eZion_90/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/Sgubhu_eZion_90/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 7,
+        "file": "beats/Sgubhu_eZion_90/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 8,
+        "file": "beats/Sgubhu_eZion_90/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      }
+    ]
+  },
+  {
+    "id": "Sgubhu_eZion_93",
+    "name": "Sgubhu eZion 93",
+    "category": "Sgubhu eZion 93",
+    "bpm": 93,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Sgubhu_eZion_93/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      },
+      {
+        "loop": 2,
+        "file": "beats/Sgubhu_eZion_93/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      },
+      {
+        "loop": 3,
+        "file": "beats/Sgubhu_eZion_93/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      },
+      {
+        "loop": 4,
+        "file": "beats/Sgubhu_eZion_93/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      },
+      {
+        "loop": 5,
+        "file": "beats/Sgubhu_eZion_93/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      },
+      {
+        "loop": 6,
+        "file": "beats/Sgubhu_eZion_93/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      },
+      {
+        "loop": 7,
+        "file": "beats/Sgubhu_eZion_93/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      },
+      {
+        "loop": 8,
+        "file": "beats/Sgubhu_eZion_93/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 83173,
+        "duration": 5.161293
+      }
+    ]
+  },
+  {
+    "id": "Stra8t_Worship_45",
+    "name": "Stra8t Worship 45",
+    "category": "Stra8t Worship 45",
+    "bpm": 45,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Stra8t_Worship_45/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 2,
+        "file": "beats/Stra8t_Worship_45/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 171363,
+        "duration": 10.666667
+      },
+      {
+        "loop": 3,
+        "file": "beats/Stra8t_Worship_45/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 171363,
+        "duration": 10.666667
+      },
+      {
+        "loop": 4,
+        "file": "beats/Stra8t_Worship_45/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 171363,
+        "duration": 10.666667
+      },
+      {
+        "loop": 5,
+        "file": "beats/Stra8t_Worship_45/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/Stra8t_Worship_45/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 171363,
+        "duration": 10.666667
+      },
+      {
+        "loop": 7,
+        "file": "beats/Stra8t_Worship_45/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      },
+      {
+        "loop": 8,
+        "file": "beats/Stra8t_Worship_45/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 86099,
+        "duration": 5.333333
+      }
+    ]
+  },
+  {
+    "id": "Stra8t_Worship_48",
+    "name": "Stra8t Worship 48",
+    "category": "Stra8t Worship 48",
+    "bpm": 48,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Stra8t_Worship_48/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 2,
+        "file": "beats/Stra8t_Worship_48/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 3,
+        "file": "beats/Stra8t_Worship_48/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 4,
+        "file": "beats/Stra8t_Worship_48/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 5,
+        "file": "beats/Stra8t_Worship_48/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 6,
+        "file": "beats/Stra8t_Worship_48/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 160496,
+        "duration": 10.0
+      },
+      {
+        "loop": 7,
+        "file": "beats/Stra8t_Worship_48/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      },
+      {
+        "loop": 8,
+        "file": "beats/Stra8t_Worship_48/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 80666,
+        "duration": 5.0
+      }
+    ]
+  },
+  {
+    "id": "Thomoyi_Dance_140",
+    "name": "Thomoyi Dance 140",
+    "category": "Thomoyi Dance 140",
+    "bpm": 140,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Thomoyi_Dance_140/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 2,
+        "file": "beats/Thomoyi_Dance_140/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 3,
+        "file": "beats/Thomoyi_Dance_140/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 4,
+        "file": "beats/Thomoyi_Dance_140/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 5,
+        "file": "beats/Thomoyi_Dance_140/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 6,
+        "file": "beats/Thomoyi_Dance_140/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 7,
+        "file": "beats/Thomoyi_Dance_140/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 8,
+        "file": "beats/Thomoyi_Dance_140/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      }
+    ]
+  },
+  {
+    "id": "Thomoyi_Dance_144",
+    "name": "Thomoyi Dance 144",
+    "category": "Thomoyi Dance 144",
+    "bpm": 144,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Thomoyi_Dance_144/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 2,
+        "file": "beats/Thomoyi_Dance_144/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 3,
+        "file": "beats/Thomoyi_Dance_144/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 4,
+        "file": "beats/Thomoyi_Dance_144/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 5,
+        "file": "beats/Thomoyi_Dance_144/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 6,
+        "file": "beats/Thomoyi_Dance_144/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 7,
+        "file": "beats/Thomoyi_Dance_144/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      },
+      {
+        "loop": 8,
+        "file": "beats/Thomoyi_Dance_144/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 53916,
+        "duration": 3.333333
+      }
+    ]
+  },
+  {
+    "id": "Thomoyi_II_143",
+    "name": "Thomoyi II 143",
+    "category": "Thomoyi II 143",
+    "bpm": 143,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Thomoyi_II_143/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 2,
+        "file": "beats/Thomoyi_II_143/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 3,
+        "file": "beats/Thomoyi_II_143/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 4,
+        "file": "beats/Thomoyi_II_143/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 5,
+        "file": "beats/Thomoyi_II_143/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 6,
+        "file": "beats/Thomoyi_II_143/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 7,
+        "file": "beats/Thomoyi_II_143/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 8,
+        "file": "beats/Thomoyi_II_143/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      }
+    ]
+  },
+  {
+    "id": "Thomoyi_II_148",
+    "name": "Thomoyi II 148",
+    "category": "Thomoyi II 148",
+    "bpm": 148,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Thomoyi_II_148/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 2,
+        "file": "beats/Thomoyi_II_148/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 3,
+        "file": "beats/Thomoyi_II_148/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 4,
+        "file": "beats/Thomoyi_II_148/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 5,
+        "file": "beats/Thomoyi_II_148/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 6,
+        "file": "beats/Thomoyi_II_148/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 7,
+        "file": "beats/Thomoyi_II_148/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      },
+      {
+        "loop": 8,
+        "file": "beats/Thomoyi_II_148/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 52662,
+        "duration": 3.243243
+      }
+    ]
+  },
+  {
+    "id": "Vunguza_Chrs_140",
+    "name": "Vunguza Chrs 140",
+    "category": "Vunguza Chrs 140",
+    "bpm": 140,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Vunguza_Chrs_140/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 2,
+        "file": "beats/Vunguza_Chrs_140/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 3,
+        "file": "beats/Vunguza_Chrs_140/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 4,
+        "file": "beats/Vunguza_Chrs_140/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 5,
+        "file": "beats/Vunguza_Chrs_140/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      },
+      {
+        "loop": 6,
+        "file": "beats/Vunguza_Chrs_140/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 55588,
+        "duration": 3.428571
+      }
+    ]
+  },
+  {
+    "id": "Vunguza_Chrs_143",
+    "name": "Vunguza Chrs 143",
+    "category": "Vunguza Chrs 143",
+    "bpm": 143,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/Vunguza_Chrs_143/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 2,
+        "file": "beats/Vunguza_Chrs_143/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 3,
+        "file": "beats/Vunguza_Chrs_143/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 4,
+        "file": "beats/Vunguza_Chrs_143/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 5,
+        "file": "beats/Vunguza_Chrs_143/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 6,
+        "file": "beats/Vunguza_Chrs_143/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      }
+    ]
+  },
+  {
+    "id": "WenaWodumo_143",
+    "name": "WenaWodumo 143",
+    "category": "WenaWodumo 143",
+    "bpm": 143,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/WenaWodumo_143/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 2,
+        "file": "beats/WenaWodumo_143/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 3,
+        "file": "beats/WenaWodumo_143/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 4,
+        "file": "beats/WenaWodumo_143/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 5,
+        "file": "beats/WenaWodumo_143/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 6,
+        "file": "beats/WenaWodumo_143/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 7,
+        "file": "beats/WenaWodumo_143/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      },
+      {
+        "loop": 8,
+        "file": "beats/WenaWodumo_143/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 54334,
+        "duration": 3.356644
+      }
+    ]
+  },
+  {
+    "id": "WenaWodumo_147",
+    "name": "WenaWodumo 147",
+    "category": "WenaWodumo 147",
+    "bpm": 147,
+    "loops": [
+      {
+        "loop": 1,
+        "file": "beats/WenaWodumo_147/loop1.mp3",
+        "source": "loop1.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 2,
+        "file": "beats/WenaWodumo_147/loop2.mp3",
+        "source": "loop2.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 3,
+        "file": "beats/WenaWodumo_147/loop3.mp3",
+        "source": "loop3.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 4,
+        "file": "beats/WenaWodumo_147/loop4.mp3",
+        "source": "loop4.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 5,
+        "file": "beats/WenaWodumo_147/loop5.mp3",
+        "source": "loop5.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 6,
+        "file": "beats/WenaWodumo_147/loop6.mp3",
+        "source": "loop6.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 7,
+        "file": "beats/WenaWodumo_147/loop7.mp3",
+        "source": "loop7.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      },
+      {
+        "loop": 8,
+        "file": "beats/WenaWodumo_147/loop8.mp3",
+        "source": "loop8.wav",
+        "bytes": 52662,
+        "duration": 3.265306
+      }
+    ]
+  }
+]
