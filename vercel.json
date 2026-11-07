@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/license/status", "destination": "/api/index?action=status" },
+    { "source": "/api/license/activate", "destination": "/api/index?action=activate" },
+    { "source": "/api/beat-pack/url", "destination": "/api/index?action=beat-pack-url" },
+    { "source": "/api/admin/create-licenses", "destination": "/api/index?action=create-licenses" }
+  ]
+}

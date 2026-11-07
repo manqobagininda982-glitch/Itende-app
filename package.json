@@ -1,0 +1,9 @@
+{
+  "name": "bratee-itende-studio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "BraTee iTende Studio static PWA with Vercel licence endpoints",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0"
+  }
+}

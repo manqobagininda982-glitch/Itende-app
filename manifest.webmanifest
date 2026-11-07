@@ -2,8 +2,10 @@
   "name": "BraTee iTende Studio",
   "short_name": "iTende Studio",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#0b0e15",
-  "theme_color": "#10131c",
-  "description": "MIDI WAV instrument and beat player"
+  "orientation": "landscape",
+  "background_color": "#0a0e18",
+  "theme_color": "#0b1020",
+  "description": "MIDI sampler and iTende beat player"
 }

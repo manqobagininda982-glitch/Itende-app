@@ -1,4 +1,5 @@
-const CACHE = 'bratee-itende-v1';
-const FILES = ['./','./index.html','./app.js','./manifest.webmanifest'];
-self.addEventListener('install', e => e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES))));
-self.addEventListener('fetch', e => e.respondWith(caches.match(e.request).then(r => r || fetch(e.request))));
+const SHELL='bratee-shell-v2';
+const FILES=['./','./index.html','./app.js','./config.js','./manifest.webmanifest','./assets/beats-index.json'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(SHELL).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{const names=await caches.keys();await Promise.all(names.filter(n=>n.startsWith('bratee-shell-')&&n!==SHELL).map(n=>caches.delete(n)));await self.clients.claim();})()));
+self.addEventListener('fetch',event=>{const u=new URL(event.request.url);if(u.origin!==location.origin||event.request.method!=='GET')return;event.respondWith((async()=>{const cached=await caches.match(event.request);if(cached)return cached;try{const response=await fetch(event.request);if(response.ok&&event.request.mode==='navigate'){const c=await caches.open(SHELL);c.put('./index.html',response.clone());}return response;}catch(err){return (await caches.match('./index.html'))||Response.error();}})());});
